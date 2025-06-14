@@ -8,5 +8,10 @@ export default function Home() {
     console.log(item);
   });
 
-  return <div>Hello world</div>;
+  return (
+    <div>
+      Hello world
+      <button>button added</button>
+    </div>
+  );
 }
