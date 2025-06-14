@@ -1,5 +1,4 @@
 import React from "react";
-import Dummy from "./Dummy";
 
 const DummyTwo = () => {
   return (
