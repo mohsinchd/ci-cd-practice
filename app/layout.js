@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import PropTypes from "prop-types";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,3 +28,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
